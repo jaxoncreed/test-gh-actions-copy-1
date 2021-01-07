@@ -15,3 +15,5 @@ jobs:
         dst_path: /TR/
         dst_owner: jaxoncreed
         dst_repo_name: test-gh-actions-copy-2
+        exclude: .github/*
+        clean: true

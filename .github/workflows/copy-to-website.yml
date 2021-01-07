@@ -2,7 +2,7 @@ name: Copy
 on: 
   push:
     branches:
-      - main
+      - master
 jobs:
   copy:
     runs-on: ubuntu-latest

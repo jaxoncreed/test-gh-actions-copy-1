@@ -1,7 +1,8 @@
 name: Copy
-push:
+on: 
+  push:
     branches:
-      - master
+      - main
 jobs:
   copy:
     runs-on: ubuntu-latest

@@ -4,5 +4,5 @@
     personal_token: ${{ secrets.PERSONAL_TOKEN }}
     src_path: /.
     dst_path: /TR/
-    dst_owner: solid
-    dst_repo_name: solidproject.org
+    dst_owner: jaxoncreed
+    dst_repo_name: test-gh-actions-copy-2

@@ -1,0 +1,8 @@
+- name: Copy
+  uses: andstor/copycat-action@v3
+  with:
+    personal_token: ${{ secrets.PERSONAL_TOKEN }}
+    src_path: /.
+    dst_path: /TR/
+    dst_owner: solid
+    dst_repo_name: solidproject.org
